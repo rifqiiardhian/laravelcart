@@ -1,0 +1,314 @@
+/*
+-------------------------------------
+| laracms Projects                  |
+|                                   |
+| Author : Muhammad Rifqi Ardhian   |
+| Copyright 2020                    |
+-------------------------------------
+*/
+
+body {
+    background-color: #ededed;
+}
+
+/* Navbar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.cart-icon {
+    float: right;
+    display: block;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    transition: 0.3s;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
+/* Alert */
+.alert {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;;
+    background-color: #c9e5ff;
+    color: #125282;
+    box-shadow: 0 6px 9px 0 rgba(0,0,0,0.2);
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: #125282;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: #fff;
+}
+
+/* Card */
+.card-item {
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+}
+
+.card-item:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
+}
+
+.card-chart {
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.card-rekom {
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px 2px rgba(0,0,0,0.2);
+}
+
+.card-rekom .img {
+    border-radius: 5px;
+}
+
+.card-rekom .card-body {
+    padding: 0;
+}
+
+.card-rekom .card-body .rekom-title {
+    font-size: 14px;
+}
+
+.card-rekom .card-body .rekom-subtitle {
+    font-size: 12px;
+}
+
+.card-ticket {
+    width: 700px;
+}
+
+.card-ticket .text-notice {
+    font-size: 13px;
+}
+
+/* Button */
+.btn-group-report {
+    border-radius: 0px;
+}
+.btn-update-profil {
+    background-color: #9003fc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.btn-update-profil:hover {
+    background-color: transparent;
+    color: #9003fc;
+    border: 1px solid #9003fc;
+}
+
+.btn-update-pass {
+    background-color: #9003fc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.btn-update-pass:hover {
+    background-color: transparent;
+    color: #9003fc;
+    border: 1px solid #9003fc;
+}
+
+.btn-user-add, .btn-user-preview, .btn-user-detail, .btn-user-edit, .btn-user-delete {
+    transition: 0.3s ease;
+    color: white;
+    border-radius: 0;
+}
+
+.btn-user-add:hover {
+    background-color: white;
+    color: #2492ed;
+    border: 1px solid #2492ed;
+}
+
+.btn-user-preview:hover {
+    background-color: transparent;
+    color: grey;
+    border: 1px solid grey;
+}
+
+.btn-user-detail:hover {
+    background-color: transparent;
+    color: #2492ed;
+    border: 1px solid #2492ed;
+}
+
+.btn-user-edit:hover {
+    background-color: transparent;
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+.btn-user-delete:hover {
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+}
+
+.btn-rekom {
+    border-radius: 3px;
+}
+
+.btn-save-ticket {
+    width: 150px;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    background-color: #2492ed;
+    color: white;
+}
+
+.btn-save-ticket:hover {
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #2492ed;
+    color: #2492ed;
+}
+
+.btn-backlink {
+    transition: 0.3s ease;
+}
+
+.btn-backlink:hover {
+    background-color: transparent;
+    color: grey;
+    border: 1px solid grey;
+}
+
+/* Table */
+.tbl-histori-pembayaran {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 5px;
+}
+
+.row-head {
+    background-color: #003f69;
+    color: #fff;
+}
+
+.row-content:nth-child(odd) {
+    background-color: #d4d8ff;
+}
+
+.tbl-user {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.row-head-user {
+    background-color: #003f69;
+    color: #fff;
+}
+
+.row-content-user {
+    background-color: #fff;
+}
+
+/* More */
+.checked {
+    color: orange;
+}
+
+.ticket-subject {
+    border-radius: 50px;
+}
+
+.file-excel {
+    background-color: white;
+    padding: 5px;
+}
+
+.btn-upload-excel {
+    border-radius: 0;
+    margin: 0;
+}
+
+.btn-group-item {
+    border-radius: 0;
+    transition: 0.3s;
+}
+
+.btn-group-item:hover {
+    background-color: transparent;
+    color: #2492ed;
+    border: 1px solid #2492ed;
+}
+
+.card-product {
+    padding: 0px;
+    background: transparent;
+}
