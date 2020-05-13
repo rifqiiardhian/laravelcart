@@ -1,3 +1,10 @@
+<!--
+Copyright 2020
+Author          : Muhammad Rifqi Ardhian
+Project Name    : Larapos
+Description     : Simple E-Commerce and Sales Report
+All Rights Reserved
+-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -14,7 +21,7 @@
         <div class="container-fluid pt-3">
             <h1 class="text-wrap pt-2 pb-4">Halaman Home</h1>
 
-
+            <p class="text-center mt-4 mb-5">Copyright &copy;2020 Created by Rifqi Ardhian. All Rights reserved<p>
         </div>
 
         <script type="text/javascript" src="{{ url('assets/dashboard/js/main.js')}}"></script>

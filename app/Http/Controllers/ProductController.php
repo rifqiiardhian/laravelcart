@@ -39,7 +39,7 @@ class ProductController extends Controller
         } else {
             $data['jumlahcart'] = 0;
         }
-        
+
         $data['produk'] = DB::table('v_produk_kategori')->where('id', $id)->get();
 
         return view('product_detail', $data);

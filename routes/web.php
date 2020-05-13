@@ -31,3 +31,7 @@ Route::get('/shop/plus', 'ShoppingController@plus_jumlah');
 Route::get('/shop/cancel/{id}', 'ShoppingController@cancel');
 Route::get('/shop/checkout', 'ShoppingController@checkout');
 Route::get('/shop/success/{id}', 'ShoppingController@success');
+
+// Pendapatan Routing
+Route::get('/a/home', 'AdminController@index');
+Route::get('/a/home/pendapatan', 'AdminController@getPendapatan');

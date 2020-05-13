@@ -21,7 +21,7 @@ class AuthController extends Controller
         } else {
             $data['jumlahcart'] = 0;
         }
-        
+
         return view('login', $data);
     }
 

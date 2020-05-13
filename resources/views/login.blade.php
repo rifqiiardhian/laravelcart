@@ -1,3 +1,10 @@
+<!--
+Copyright 2020
+Author          : Muhammad Rifqi Ardhian
+Project Name    : Larapos
+Description     : Simple E-Commerce and Sales Report
+All Rights Reserved
+-->
 <!DOCTYPE html>
 <html lang="en">
     <head>

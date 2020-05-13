@@ -1,3 +1,10 @@
+<!--
+Copyright 2020
+Author          : Muhammad Rifqi Ardhian
+Project Name    : Larapos
+Description     : Simple E-Commerce and Sales Report
+All Rights Reserved
+-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -33,6 +40,8 @@
                 </div>
                 @endforeach
             </div>
+
+            <p class="text-center mt-5 mb-5">Copyright &copy;2020 Created by Rifqi Ardhian. All Rights reserved<p>
         </div>
 
         <script type="text/javascript" src="{{ url('assets/dashboard/js/main.js')}}"></script>
